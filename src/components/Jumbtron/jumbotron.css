@@ -1,3 +1,13 @@
 .jumbo {
   background-color: #eccdd0;
+  height: 35vh;
+}
+
+.jumbo h1 {
+  color: #2486e6;
+  font-size: 40px;
+}
+
+.name {
+  font-size: 40px;
 }

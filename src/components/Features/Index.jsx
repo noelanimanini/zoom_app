@@ -6,38 +6,34 @@ function Index() {
   return (
     <div className="something" id="features">
       <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>Chat Notifications</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            zoom chat notification bot that reminds people at the beginning of
+            the meeting to participate in inclusive behaviors
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
       <div />
       <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>Auto Captions</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            look into auto captions when people join the meeting
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
       <div />
       <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>Image Description</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            image description alert (if images are posted in a chat, ask the
+            sender to describe it)
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
     </div>

@@ -3,6 +3,7 @@ import "./team.css";
 import Barbara from "../images/Barbara.jpg";
 import Linda from "../images/Linda.jpg";
 import Crystal from "../images/Crystal.jpg";
+import Elisabeth from "../images/Elisabeth.jpg";
 import { Card } from "react-bootstrap";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
@@ -63,17 +64,19 @@ function Index() {
         </Card.Body>
       </Card>
       <Card style={{ width: "18rem" }}>
-        <Card.Img
-          variant="top"
-          className="cardImage"
-          src="holder.js/100px180"
-        />
+        <Card.Img variant="top" className="cardImage" src={Elisabeth} />
         <Card.Body>
           <Card.Title>Elisabeth</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Elisabeth is a high school student interested in pursuing a mix of
+            design, technology, and business, and thoroughly enjoyed making this
+            meaningful product with the team!
           </Card.Text>
+          <div className="align-self-center mt-auto p-1 ">
+            <a class="mailto" href="mailto:lishyl26@gmail.com">
+              <HiOutlineMail className="icon" />
+            </a>
+          </div>
         </Card.Body>
       </Card>
     </div>
