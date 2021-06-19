@@ -12,6 +12,7 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from mimetypes import guess_type as guess_mime_type
 import re
+import time
 
 SCOPES = ['https://mail.google.com/']
 our_email = 'hydrangea.zoombot@gmail.com'
@@ -178,27 +179,21 @@ def read_message(service, message_id):
     parts = payload.get("parts")
     folder_name = "email"
     if headers:
-
         # this section prints email basic info & creates a folder for the email
         for header in headers:
             name = header.get("name")
             value = header.get("value")
             if name.lower() == 'from':
-                # we print the From address
                 print("From:", value)
                 zoomlinks.append("From: "+ str(value))
             if name.lower() == "to":
-                # we print the To address
                 print("To:", value)
                 zoomlinks.append("To: " + str(value))
             if name.lower() == "subject":
-                # make a directory with the name of the subject
                 folder_name = clean(value)
-                # we will also handle emails with the same subject name
                 folder_counter = 0
                 while os.path.isdir(folder_name):
                     folder_counter += 1
-                    # we have the same folder name, add a number next to it
                     if folder_name[-1].isdigit() and folder_name[-2] == "_":
                         folder_name = f"{folder_name[:-2]}_{folder_counter}"
                     elif folder_name[-2:].isdigit() and folder_name[-3] == "_":
@@ -209,7 +204,6 @@ def read_message(service, message_id):
                 print("Subject:", value)
                 zoomlinks.append("Subject: " + str(value))
             if name.lower() == "date":
-                # we print the date when the message was sent
                 print("Date:", value)
                 zoomlinks.append("Date: " + str(value))
     parse_parts(service, parts, folder_name)
@@ -223,20 +217,39 @@ def list_to_text(filename, listname):
         for listitem in listname:
             filehandle.write('%s\n' % listitem)
 
+def isTimeFormat(input):
+    try:
+        time.strptime(input, '%H:%M')
+        return True
+    except ValueError:
+        return False
+
 def process_email_content(content):
+    zoom_link = ''
+    time = ''
+
     for i in range(len(content)):
         if 'zoom.us' in content[i] and 'https' in content[i]:
-            zoom_link= content[i]
+            indx = content[i].find('https:')
+            zoom_link= content[i][indx:]
             file_object = open('listfile.txt', 'a')
             file_object.write('\nZoom Link: ' + zoom_link)
             file_object.close()
-            return zoom_link
+        if ':' in content[i]:
+            index = content[i].find(':')
+            try:
+                if isTimeFormat(content[i][index-2:index+4]):
+                    time = content[i][index-2:index+4]
+            except:
+                pass
+
+    return zoom_link,time
+
     # body = ''
     # for i in range (len(content)):
     #     if 'Body:' in content[i]:
     #         for j in range(len(content)-i-1,-1,-1):
     #             body += content[len(content)-j-1]
-
 
     # zoom_link = re.search("(?P<url>https?://[^\s]+)", body).group("url")
     #
@@ -261,21 +274,20 @@ service = gmail_authenticate()
 # send_message(service, send_to, send_subject, send_body)
 
 #search for zoom links and add them into txt
-results = search_messages(service, "zoom.us")
+# results = search_messages(service, "zoom.us")
+#
+# for msg in results:
+#     read_message(service, msg)
+#
+# # read_message(service, results[0])
+# list_to_text('listfile.txt',zoomlinks)
+# content = read_file('listfile.txt')
+# zoom_link = process_email_content(content)
+#
+# print('the zoom link is: ', zoom_link)
+#
 
-for msg in results:
-    read_message(service, msg)
 
-# read_message(service, results[0])
-list_to_text('listfile.txt',zoomlinks)
 content = read_file('listfile.txt')
-zoom_link = process_email_content(content)
-
-print('the zoom link is: ', zoom_link)
-
-test1 = 123
-
-
-
-
-
+zoom_link,time = process_email_content(content)
+print('link:',zoom_link,'time: ',time)
