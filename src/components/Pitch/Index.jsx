@@ -14,7 +14,7 @@ function Index() {
       text-transform: uppercase;
       height: 50px
       font-family: "Poppins", sans-serif;
-      font-weight: bold
+      font-weight: 900
       
     }
     `}
@@ -27,7 +27,7 @@ function Index() {
       <div className="groupPic">
         <img src={Group} className="imageStyle" />
       </div>
-      <div className="button">
+      <div className="button5">
         <Button variant="screen">download Digi-clusive</Button>
       </div>
     </div>

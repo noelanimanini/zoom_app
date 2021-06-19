@@ -4,6 +4,9 @@ import Behaviors from "../Behaviors/Index";
 import Submission from "../Submission/Index";
 import Resources from "../Resources/Index";
 import Pitch from "../Pitch/Index";
+import Team from "../Team/Index";
+import Meetings from "../Meetings/Index";
+import image from "../images/digi1.png";
 
 function Index() {
   return (
@@ -12,8 +15,14 @@ function Index() {
       <Jumbotron />
       <Behaviors />
       <Submission />
+      <Meetings />
       <Resources />
       <Pitch />
+      <div style={{ height: "5vh" }}></div>
+      <div style={{ backgroundColor: "#EBB86C" }}>
+        <Team />
+      </div>
+      <img src={image} style={{ width: "48%" }} />
     </div>
   );
 }

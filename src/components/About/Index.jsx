@@ -4,7 +4,7 @@ import "./about.css";
 function Index() {
   return (
     <div className="aboutBackground" id="about">
-      <h1 className="aboutHeader">What is [insert name]?</h1>
+      <h1 className="aboutHeader">What is DIGI-CLUSIVE?</h1>
       <div>
         An app that brings more inclusivity to online video calling. Since
         COVID-19 began, Zoom and other video conferencing applications have been

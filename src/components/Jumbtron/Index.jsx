@@ -4,12 +4,18 @@ import { Jumbotron, Container } from "react-bootstrap";
 
 function Jumbo() {
   return (
-    <div className="jumbo" id="jumbo">
-      <Jumbotron fluid>
-        <Container className="d-inline-flex justify-content-start flex-lg-column ">
-          <div className="name">APP NAME</div>
-          <div className="name">Making zoom accessible for </div>
-          <h1> everyone.</h1>
+    <div id="jumbo">
+      <Jumbotron className="jumbotro" fluid>
+        {" "}
+        <Container>
+          <div style={{ textAlign: "left", display: "inline-block" }}>
+            <div className="h1Strong2">DIGI-CLUSIVE meetings</div>
+            <div className="name">Making zoom accessible for </div>
+            <h1 className="h1Strong">
+              {" "}
+              <strong> everyone</strong>
+            </h1>
+          </div>
         </Container>
       </Jumbotron>
     </div>

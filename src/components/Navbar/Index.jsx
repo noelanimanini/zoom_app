@@ -2,13 +2,14 @@ import React from "react";
 import "./navbar.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import digi1 from "../images/digi2.png";
 
 function Index() {
   return (
     <div>
       {" "}
       <Navbar expand="lg" className="nav">
-        {/* <Navbar.Brand href="#">Navbar scroll</Navbar.Brand> */}
+        <img src={digi1} className="digi1css" />
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

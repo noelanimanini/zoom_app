@@ -20,9 +20,9 @@ function Index() {
       <div className="dnParent">
         <div className="download">
           <h4> What are you waiting for?</h4>{" "}
-          <h6>create more inclusive communities with *APP NAME* </h6>
+          <h6>create more inclusive communities with DIGI-CLUSIVE </h6>
         </div>
-        <div className="button">
+        <div className="button2">
           <Button variant="flat">Download</Button>
         </div>
       </div>

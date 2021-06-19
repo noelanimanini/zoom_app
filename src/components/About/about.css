@@ -2,9 +2,12 @@
   /* border: 20px; */
   border-style: dotted;
   height: 75vh;
+  width: 75%;
+  display: inline-block;
 }
 .aboutHeader {
   font-family: "Poppins", sans-serif;
   color: #6261b9;
   padding: 45px;
+  font-weight: 900;
 }

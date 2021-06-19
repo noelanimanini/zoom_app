@@ -2,18 +2,19 @@
   display: flex;
   justify-content: center;
   background-color: #eccdd0;
-  height: 25vh;
+  height: 40vh;
   position: relative;
 }
 
-.button {
+.button5 {
   background-color: #eccdd0;
+  padding-bottom: 30px;
 }
 
 .imageStyle {
   z-index: 1;
-  position: relative;
-  bottom: 200px;
+  position: absolute;
+  bottom: 20%;
   width: 700px;
   height: 400px;
 }

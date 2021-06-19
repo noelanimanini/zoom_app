@@ -1,19 +1,49 @@
-.jumbo {
+.jumbo2 {
   background-color: #eccdd0;
   height: 35vh;
+  font-family: "Poppins", sans-serif;
 }
 
-.jumbo h1 {
+.jumbotro {
+  background-color: #eccdd0;
+  height: 40vh;
+  font-family: "Poppins", sans-serif;
+}
+.jumbo {
   color: white;
   font-size: 40px;
+  height: 35vh;
 }
 
 .name {
   font-size: 40px;
 }
 
+.h1Strong {
+  color: #2486e6;
+}
+.h1Strong2 {
+  color: #2486e6;
+  font-size: 40px;
+}
+
 .inclusive {
-  display: flex;
-  justify-content: center;
-  transform: translateY(100px);
+  height: 35vh;
+}
+
+.inclusive2 h1 {
+  width: 75%;
+  float: left;
+}
+
+.inclu2 {
+  text-align: center;
+  position: relative;
+  left: 10%;
+}
+
+.jumbotron {
+  /* background-color: transparent !important; */
+  background-color: #eccdd0;
+  height: 40vh;
 }

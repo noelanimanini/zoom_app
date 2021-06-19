@@ -9,4 +9,16 @@
 
 .box {
   width: 50%;
+  padding: 10px;
+}
+
+.boxhead {
+  color: black;
+}
+.behaviorImage {
+  width: 25%;
+}
+
+.ulDecoration {
+  list-style-type: none; /* ?*/
 }
