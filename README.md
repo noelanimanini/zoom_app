@@ -1,71 +1,86 @@
-# Getting Started with Create React App
+# Zoom Bot which Does Everything You Ever Wanted 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###### If you are reading this article, you have probably watched the YouTube(click here) video. To jump right to the links and the code, click here. 
 
-## Available Scripts
+Zoom is a platform on which a lot of schools rely on, and this is why, after Teams bot I received an overwhelming comment of people asking to make Zoom bot. Took a while, but I managed to create something that has never been created before, functions which have never been performed before on any YouTube video. So, do read this article till the end, to know what those functions are and how you too can own that bot!  
 
-In the project directory, you can run:
+## Step 1- Installing the Repository 
 
-### `yarn start`
+Before doing anything, it is an obvious step to first download Python through which all the magic is performed. I do not need to specify it because I have already done so in the last article. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+So, the first step is to go to GitHub (click here) and download the ZIP file of the code. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ 
+## Step 2- Extracting the File 
 
-### `yarn test`
+Next, extract the file inside to whatever location you want. (I’d suggest desktop simply) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Step 3- Running “requirements” file 
 
-### `yarn build`
+Inside the file, you will see a file named “requirements.py”. Run this file through python. This will install all the necessary files that you need for the main code. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://media.giphy.com/media/nFrb1YNDEvLqZUXnGh/giphy.gif" width="1000" height="526" />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Step 4- Retrieving location of Zoom application 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Search for Zoom in the search bar, right click on Zoom and go to properties. In properties, you will see the location of Zoom. Copy the entire thing with Zoom.exe in the end!  
 
-### `yarn eject`
+ 
+## Step 5.1- The Configuration (if you have Meeting ID) 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you have a meeting ID and a meeting password, ignore the file named “linkcred.py” and click on the “settings.txt” file. You’ll see the following things in that file. In the place of location, paste the location of Zoom that you copied previously. Following the same time format (24h), key in the time you want your bot to enter the class for you. Enter the meeting ID and the meeting password in the next two respective places.  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://media.giphy.com/media/GQONSSMpkhtDL3B5Qq/giphy.gif" width="1000" height="526" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+ 
+## Step 5.2- The Configuration (if you have Meeting link) 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you have a meeting ID and a meeting password, ignore the file named “settings” and open the “linkcred.py” with a text editor or any environment (PyCharm/Spyder). Enter the Zoom link that you want the bot to join and the time you want it to join at inside the quotation mark. 
 
-## Learn More
+<img src="https://media.giphy.com/media/FVDT8HDsDKs3ageX14/giphy.gif" width="1000" height="526" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Step 6- Cross-Checking Zoom application settings
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Before running the code, the last thing that you have to ensure is that your Zoom applications settings should match the following settings.
 
-### Code Splitting
+<img src="https://media.giphy.com/media/LjiPPEVYVhKoEli7No/giphy.gif" width="1000" height="526" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Ensure that boxes which are ticked in my device are ticked in yours and those which are unticked are unticked in your device too. Then go to Keyboard shortcuts and restore to default.
 
-### Analyzing the Bundle Size
+<img src="https://media.giphy.com/media/ApqwNcG8vX5vkDYEJp/giphy.gif" width="1000" height="526" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+After restoring, go to "End Meeting" and click on the space where "Alt+Q" is written. Hit the "Q" key on your keyboard and hit enter.
 
-### Making a Progressive Web App
+## Step 7- Running the Code 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Now, the only thing left to do is to run the code. Inside the bar on the file explorer, type “cmd” and hit enter. Type, “python main.py” and hit enter. 
 
-### Advanced Configuration
+<img src="https://media.giphy.com/media/UQouZvSuG3AUL9k2tF/giphy.gif" width="1000" height="526" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Done! Now, you’ll see that the code is waiting for the start time.  
 
-### Deployment
+## The End 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+That is all! When the time comes, the bot will open Zoom and join your class and you can just sit there and relax. Wait... What if your teacher asks you to unmute your mic or start your video? 
 
-### `yarn build` fails to minify
+## Surprise! 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# zoom_app
+**Well, we have a solution for this too! So, this bot that is created is functioned to type a message for you saying that your mic and video camera is not working! Isn’t that cool?! Do share this cool article/video/repository with all your friends!**
+
+## Links and Codes 
+
+### Links 
+
+YouTube Tutorial- https://youtu.be/lyVi3yS4QRg 
+
+GitHub Repository- https://github.com/prokan468/autobot-joins-zoom￼ 
+
+Python Download- https://www.python.org/downloads 
+
+### Codes 
+
+Cmd Code- “python main.py” 
+
+###### If you are reading this article, you have probably watched the YouTube(click here) video. Thank you for your support, do comment down below whether you enjoyed this content and if we should continue making this type of content.COPYRIGHT ALL RIGHTS RESERVED 2020 
+
+ 

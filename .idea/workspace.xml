@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="962d32df-46dd-401c-9f55-e7cf9e0c9226" name="Default Changelist" comment="" />
+    <list default="true" id="962d32df-46dd-401c-9f55-e7cf9e0c9226" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/email_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkcred.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot2021-0619_05-13-10-239953.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot2021-0619_05-13-10-243425.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot2021-0619_05-13-10-245763.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoom_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/token.pickle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +52,67 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.zoom_main">
+    <configuration name="email_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zoom_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/email_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zoom_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="zoom_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zoom_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.zoom_main" />
+        <item itemvalue="Python.email_main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -32,7 +124,47 @@
       <option name="presentableId" value="Default" />
       <updated>1624061756009</updated>
       <workItem from="1624061757546" duration="3000" />
+      <workItem from="1624094817964" duration="389000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1207" height="263" key="GridCell.Tab.0.bottom" timestamp="1624095123169">
+      <screen x="0" y="25" width="1792" height="1022" />
+    </state>
+    <state width="1207" height="263" key="GridCell.Tab.0.bottom/0.25.1792.1022@0.25.1792.1022" timestamp="1624095123169" />
+    <state width="1207" height="263" key="GridCell.Tab.0.center" timestamp="1624095123168">
+      <screen x="0" y="25" width="1792" height="1022" />
+    </state>
+    <state width="1207" height="263" key="GridCell.Tab.0.center/0.25.1792.1022@0.25.1792.1022" timestamp="1624095123168" />
+    <state width="1207" height="263" key="GridCell.Tab.0.left" timestamp="1624095123168">
+      <screen x="0" y="25" width="1792" height="1022" />
+    </state>
+    <state width="1207" height="263" key="GridCell.Tab.0.left/0.25.1792.1022@0.25.1792.1022" timestamp="1624095123168" />
+    <state width="1207" height="263" key="GridCell.Tab.0.right" timestamp="1624095123169">
+      <screen x="0" y="25" width="1792" height="1022" />
+    </state>
+    <state width="1207" height="263" key="GridCell.Tab.0.right/0.25.1792.1022@0.25.1792.1022" timestamp="1624095123169" />
+    <state x="283" y="146" key="SettingsEditor" timestamp="1624095208593">
+      <screen x="0" y="25" width="1792" height="1022" />
+    </state>
+    <state x="283" y="146" key="SettingsEditor/0.25.1792.1022@0.25.1792.1022" timestamp="1624095208593" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/zoom_app$email_main.coverage" NAME="email_main Coverage Results" MODIFIED="1624095108722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
