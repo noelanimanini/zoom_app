@@ -1,16 +1,17 @@
 import React from "react";
-import { Jumbotron, Container } from "react-bootstrap";
+import Jumbotron from "../Jumbtron/Index2";
+import Behaviors from "../Behaviors/Index";
+import Submission from "../Submission/Index";
+import Resources from "../Resources/Index";
 
 function Index() {
   return (
     <div>
       {" "}
-      <Jumbotron fluid className="jumbo">
-        {" "}
-        <Container>
-          <h1>behaviors</h1>
-        </Container>
-      </Jumbotron>
+      <Jumbotron />
+      <Behaviors />
+      <Submission />
+      <Resources />
     </div>
   );
 }

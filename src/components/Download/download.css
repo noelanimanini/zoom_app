@@ -1,11 +1,27 @@
 h4 {
   font-family: "Poppins", sans-serif;
   color: white;
-  display: flex;
-  justify-content: right;
-  align-items: right;
 }
 
 h6 {
   color: white;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  padding: 20px;
+}
+
+.dnParent {
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 40px;
 }

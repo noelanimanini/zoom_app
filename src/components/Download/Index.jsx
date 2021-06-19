@@ -8,16 +8,22 @@ function Index() {
       <style type="text/css">
         {`
     .btn-flat {
-      background-color: #2486E6;
-      color: white;
+      background-color: white;
+      color: #2486E6;
       text-transform: uppercase;
+      height: 35px
+      
     }
     `}
       </style>
-      <div>
-        <h4> What are you waiting for?</h4>{" "}
-        <h6>create more inclusive communities with *APP NAME* </h6>
-        <Button variant="flat">Download</Button>
+      <div className="dnParent">
+        <div className="download">
+          <h4> What are you waiting for?</h4>{" "}
+          <h6>create more inclusive communities with *APP NAME* </h6>
+        </div>
+        <div className="button">
+          <Button variant="flat">Download</Button>
+        </div>
       </div>
     </div>
   );

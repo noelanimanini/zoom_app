@@ -4,10 +4,16 @@
 }
 
 .jumbo h1 {
-  color: #2486e6;
+  color: white;
   font-size: 40px;
 }
 
 .name {
   font-size: 40px;
+}
+
+.inclusive {
+  display: flex;
+  justify-content: center;
+  transform: translateY(100px);
 }
