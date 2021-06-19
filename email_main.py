@@ -255,7 +255,6 @@ def process_email_content(content):
     #
     # zoom_link = zoom_link.replace('"', '')
 
-
 def read_file(fileName):
     with open(fileName, "r") as txt_file:
         lines = []
@@ -267,26 +266,23 @@ def read_file(fileName):
 zoomlinks = []
 service = gmail_authenticate()
 
-#send message
+## send message
+
 # send_to = "lindawang10101@gmail.com"
 # send_subject = "Zoom Invitation"
 # send_body = "Hi! please enjoy this meeting! \n https://utoronto.zoom.us/j/87697832155"
 # send_message(service, send_to, send_subject, send_body)
 
-#search for zoom links and add them into txt
-# results = search_messages(service, "zoom.us")
-#
-# for msg in results:
-#     read_message(service, msg)
-#
-# # read_message(service, results[0])
-# list_to_text('listfile.txt',zoomlinks)
-# content = read_file('listfile.txt')
-# zoom_link = process_email_content(content)
-#
-# print('the zoom link is: ', zoom_link)
-#
+##search for zoom links and add them into txt
 
+results = search_messages(service, "zoom.us")
+
+for msg in results:
+    read_message(service, msg)
+
+list_to_text('listfile.txt',zoomlinks)
+content = read_file('listfile.txt')
+zoom_link = process_email_content(content)
 
 content = read_file('listfile.txt')
 zoom_link,time = process_email_content(content)
