@@ -1,0 +1,12 @@
+.behavior {
+  display: flex;
+  justify-content: center;
+}
+
+.message {
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  width: 50%;
+}

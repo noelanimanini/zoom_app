@@ -3,6 +3,7 @@ import Jumbotron from "../Jumbtron/Index2";
 import Behaviors from "../Behaviors/Index";
 import Submission from "../Submission/Index";
 import Resources from "../Resources/Index";
+import Pitch from "../Pitch/Index";
 
 function Index() {
   return (
@@ -12,6 +13,7 @@ function Index() {
       <Behaviors />
       <Submission />
       <Resources />
+      <Pitch />
     </div>
   );
 }

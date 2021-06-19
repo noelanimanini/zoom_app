@@ -12,7 +12,8 @@ function Index() {
       color: #2486E6;
       text-transform: uppercase;
       height: 35px
-      
+      font-family: "Poppins", sans-serif;
+      font-weight: bold
     }
     `}
       </style>

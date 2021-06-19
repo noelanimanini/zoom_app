@@ -1,0 +1,25 @@
+.groupPic {
+  display: flex;
+  justify-content: center;
+  background-color: #eccdd0;
+  height: 25vh;
+  position: relative;
+}
+
+.button {
+  background-color: #eccdd0;
+}
+
+.imageStyle {
+  z-index: 1;
+  position: relative;
+  bottom: 200px;
+  width: 700px;
+  height: 400px;
+}
+
+.message2 {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20%;
+  /* padding-top: 5%; */
+}

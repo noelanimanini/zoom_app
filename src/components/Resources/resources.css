@@ -1,0 +1,22 @@
+.resourcesBack {
+  background-color: #6261b9;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+
+.resourceCards {
+  padding-bottom: 10%;
+  /* padding-top: 5%; */
+  display: flex;
+  justify-content: center;
+}
+
+.imageSt {
+  width: 200px; /* You can set the dimensions to whatever you want */
+  height: 200px;
+  object-fit: cover;
+}
