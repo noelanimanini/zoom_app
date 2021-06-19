@@ -5,7 +5,7 @@ import { Navbar, Nav } from "react-bootstrap";
 function Index() {
   return (
     <div>
-      <Navbar expand="lg">
+      <Navbar expand="lg" className="nav">
         {/* <Navbar.Brand href="#">Navbar scroll</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -14,10 +14,11 @@ function Index() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
-            <Nav.Link href="#action2">Creators</Nav.Link>
-            <Nav.Link href="#action2">Download</Nav.Link>
+            <Nav.Link href="#jumbo">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#team">Creators</Nav.Link>
+            <Nav.Link href="#download">Download</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

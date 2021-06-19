@@ -9,7 +9,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 function Index() {
   return (
-    <div className="team">
+    <div className="team" id="team">
       <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" className="cardImage" src={Barbara} />
         <Card.Body className="d-flex flex-column">
@@ -53,7 +53,7 @@ function Index() {
             Fullstack software engineer with a background in neuroscience and a
             love for language.
           </Card.Text>
-          <div className="align-self-center mt-auto p-1">
+          <div className="align-self-center mt-auto p-1 ">
             <AiFillLinkedin className="icon" />
             <AiFillGithub className="icon" />
             <a class="mailto" href="mailto:noelani.villanueva@gmail.com">

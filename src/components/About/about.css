@@ -1,0 +1,10 @@
+.aboutBackground {
+  /* border: 20px; */
+  border-style: dotted;
+  height: 75vh;
+}
+.aboutHeader {
+  font-family: "Poppins", sans-serif;
+  color: #6261b9;
+  padding: 45px;
+}

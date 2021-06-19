@@ -4,7 +4,7 @@ import { Jumbotron, Container } from "react-bootstrap";
 
 function Jumbo() {
   return (
-    <div>
+    <div className="jumbo" id="jumbo">
       <Jumbotron fluid>
         <Container>
           <h1> Making zoom accessible for </h1>

@@ -4,7 +4,7 @@ import "./download.css";
 
 function Index() {
   return (
-    <div style={{ backgroundColor: "#6261B9", padding: 0 }}>
+    <div style={{ backgroundColor: "#6261B9", padding: 0 }} id="download">
       <style type="text/css">
         {`
     .btn-flat {
