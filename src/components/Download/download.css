@@ -1,0 +1,11 @@
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+h6 {
+  color: white;
+}
