@@ -5,6 +5,7 @@ function App() {
   <div>yes boo hiss</div>
   </div>
   );
+  return <div className="App">Hello!</div>;
 }
 
 export default App;
