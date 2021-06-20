@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./jumbotron.css";
 import { Jumbotron, Container } from "react-bootstrap";
 import { useSpring, animated, config } from "react-spring";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Index2() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   const fade = useSpring({
     from: {
       // position: "fixed",
@@ -23,10 +28,15 @@ function Index2() {
         {" "}
         <Container>
           <div className="inclusive2">
-            <animated.h1 className="inclu2" style={fade}>
+            <h1
+              className="inclu2"
+              data-aos="fade-down"
+              data-aos-easing="ease-in-sine"
+              data-aos-delay="150"
+            >
               Inclusive behaviors in every community, starting with{" "}
               <strong>Zoom</strong>
-            </animated.h1>
+            </h1>
           </div>
         </Container>
       </Jumbotron>
