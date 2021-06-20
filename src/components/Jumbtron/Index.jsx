@@ -8,13 +8,22 @@ function Jumbo() {
       <Jumbotron className="jumbotro" fluid>
         {" "}
         <Container>
-          <div style={{ textAlign: "left", display: "inline-block" }}>
+          <div
+            style={{
+              display: "inline-block",
+              position: "relative",
+              bottom: "30px",
+            }}
+          >
             <div className="h1Strong2">DIGI-CLUSIVE meetings</div>
-            <div className="name">Making zoom accessible for </div>
-            <h1 className="h1Strong">
-              {" "}
-              <strong> everyone</strong>
-            </h1>
+            <div className="under">
+              <div className="name">Making zoom accessible for </div>
+
+              <h1 className="h1Strong">
+                {" "}
+                <strong> everyone</strong>
+              </h1>
+            </div>
           </div>
         </Container>
       </Jumbotron>
