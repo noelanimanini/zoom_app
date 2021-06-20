@@ -37,7 +37,7 @@ function Index() {
             >
               <Card.Img variant="top" className="cardImage" src={Barbara} />
               <Card.Body className="d-flex flex-column ">
-                <Card.Title>Barbara</Card.Title>
+                <Card.Title>Barbra</Card.Title>
                 <Card.Text>
                   Mental health counselor with experience in serving blind and
                   visually impaired adults and children as well as severely and
@@ -58,7 +58,6 @@ function Index() {
                     aria-hidden="true"
                     rel="noreferrer"
                   >
-                    {" "}
                     <AiFillGithub className="icon" />
                   </a>
                   <a class="mailto" href="mailto:betrest@gmail.com">
@@ -97,7 +96,6 @@ function Index() {
                     aria-hidden="true"
                     rel="noreferrer"
                   >
-                    {" "}
                     <AiFillGithub className="icon" />
                   </a>
 
@@ -137,7 +135,6 @@ function Index() {
                     aria-hidden="true"
                     rel="noreferrer"
                   >
-                    {" "}
                     <AiFillGithub className="icon" />
                   </a>
                   <a class="mailto" href="mailto:noelani.villanueva@gmail.com">
@@ -159,10 +156,31 @@ function Index() {
                 <Card.Title>Elisabeth</Card.Title>
                 <Card.Text>
                   High school student interested in pursuing a mix of design,
-                  technology, and business, and thoroughly enjoyed making this
-                  meaningful product with the team!
+                  technology, and business!
                 </Card.Text>
-                <div className="align-self-center mt-auto p-1 ">
+                <div className="align-self-center mt-auto">
+                  <a
+                    href="https://www.linkedin.com/in/linda-wang-250b85180/"
+                    rel="noreferrer"
+                    aria-hidden="true"
+                    target="_blank"
+                  >
+                    <AiFillLinkedin className="icon" />
+                  </a>
+                  <a
+                    href="https://github.com/LindaWang7"
+                    target="_blank"
+                    aria-hidden="true"
+                    rel="noreferrer"
+                  >
+                    <AiFillGithub className="icon" />
+                  </a>
+
+                  <a class="mailto" href="mailto:lindawang0719@gmail.com">
+                    <HiOutlineMail className="icon" />
+                  </a>
+                </div>
+                {/* <div className="align-self-center mt-auto p-1 ">
                   <a
                     href="https://github.com/lishyl26"
                     target="_blank"
@@ -175,7 +193,7 @@ function Index() {
                   <a class="mailto" href="mailto:lishyl26@gmail.com">
                     <HiOutlineMail className="icon" />
                   </a>
-                </div>
+                </div> */}
               </Card.Body>
             </Card>
           </Row>

@@ -5,6 +5,7 @@ import Download from "../Download/Index";
 import Features from "../Features/Index";
 import Team from "../Team/Index";
 import image from "../images/digi1.png";
+import "./home.css";
 
 function Home() {
   return (
