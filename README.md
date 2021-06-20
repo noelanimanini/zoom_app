@@ -58,7 +58,8 @@ Get in touch with the developer team. Devpost project can be found at https://de
 
 ## Try it out
 
-Web Page: https://digiclusive.herokuapp.com/
+Web Page with more accessibility information: https://digiclusive.herokuapp.com/
+
 Figma Protoype: https://www.figma.com/file/d2i0XiyawgViMR6UoVyXFi/Front-Page?node-id=13%3A2
 
 ----
