@@ -1,24 +1,53 @@
 .behavior {
   display: flex;
   justify-content: center;
+  margin-left: 2em;
 }
 
 .message {
   font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .box {
   width: 50%;
   padding: 10px;
+  flex-wrap: wrap;
 }
 
-.boxhead {
+.title {
+  color: #6261b9;
+  font-weight: 900;
+  font-size: 50px;
+  /* width: 40%; */
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.titleBox {
+  display: flex;
+  margin-left: 2em;
+  padding-bottom: 10px;
+  width: 550px;
+  /* width: 459px; */
+}
+
+#boxhead {
   color: black;
-}
-.behaviorImage {
-  width: 25%;
+  font-size: 30px;
+  text-align: left;
 }
 
-.ulDecoration {
-  list-style-type: none; /* ?*/
+#boxhead2:before {
+  content: "\00a0 ";
+}
+
+.behaviorImage {
+  height: 50vh;
+  width: 20em;
+  padding-top: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
