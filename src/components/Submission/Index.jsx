@@ -2,10 +2,16 @@ import React from "react";
 
 function Index() {
   return (
-    <div style={{ backgroundColor: "#6261B9", textDecorationColor: "white" }}>
-      <a href="https://devpost.com/software/tbd-qr5bgi?ref_content=user-portfolio&ref_feature=in_progress">
+    <div
+      style={{
+        backgroundColor: "#6261B9",
+        textDecorationColor: "white",
+        padding: "27px",
+      }}
+    >
+      {/* <a href="https://devpost.com/software/tbd-qr5bgi?ref_content=user-portfolio&ref_feature=in_progress">
         <h1>Devpost</h1>
-      </a>
+      </a> */}
     </div>
   );
 }
