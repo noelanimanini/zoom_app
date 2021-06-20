@@ -16,81 +16,76 @@ function Index() {
 
       <div className="something" id="features">
         <Container className="childsome">
-          <Row>
-            <Col md={3} xs={6}>
-              <Card
-                style={{
-                  width: "18rem",
-                  cursor: "pointer",
-                }}
-                className="h-100"
-              >
-                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-                <Card.Body>
-                  <Card.Title>Chat Notifications</Card.Title>
-                  <Card.Text>
-                    Every participant that joins the Zoom meeting will receive
-                    an automated private message that encourages them to be
-                    mindful of inclusive behaviors.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={3} xs={6}>
-              <Card
-                style={{
-                  width: "18rem",
-                  cursor: "pointer",
-                }}
-                className="h-100"
-              >
-                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-                <Card.Body>
-                  <Card.Title>Auto Captions</Card.Title>
-                  <Card.Text>
-                    Turn on Auto Captions when you're speaking!
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={3} xs={6}>
-              <Card
-                style={{
-                  width: "18rem",
-                  cursor: "pointer",
-                }}
-                className="h-100"
-              >
-                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-                <Card.Body>
-                  <Card.Title>Resources</Card.Title>
-                  <Card.Text>
-                    Every reminder Digi-Clusive sends includes a link to
-                    resources for the user to check out and further their
-                    awareness on inclusivity.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={3} xs={6}>
-              <Card
-                style={{
-                  width: "18rem",
-                  cursor: "pointer",
-                }}
-                className="h-100"
-              >
-                {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-                <Card.Body>
-                  <Card.Title>Image Description</Card.Title>
-                  <Card.Text>
-                    image description alert (if images are posted in a chat, ask
-                    the sender to describe it)
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
+          <Card
+            style={{
+              width: "18rem",
+              cursor: "pointer",
+              borderRadius: "30px 30px 30px 30px",
+            }}
+            className="h-100"
+          >
+            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+            <Card.Body>
+              <Card.Title>Chat Notifications</Card.Title>
+              <Card.Text>
+                Every participant that joins the Zoom meeting will receive an
+                automated private message that encourages them to be mindful of
+                inclusive behaviors.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card
+            style={{
+              width: "18rem",
+              cursor: "pointer",
+              borderRadius: "30px 30px 30px 30px",
+            }}
+            className="h-100"
+          >
+            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+            <Card.Body>
+              <Card.Title>Auto Captions</Card.Title>
+              <Card.Text>Turn on Auto Captions when you're speaking!</Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card
+            style={{
+              width: "18rem",
+              cursor: "pointer",
+              borderRadius: "30px 30px 30px 30px",
+            }}
+            className="h-100"
+          >
+            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+            <Card.Body>
+              <Card.Title>Resources</Card.Title>
+              <Card.Text>
+                Every reminder Digi-Clusive sends includes a link to resources
+                for the user to check out and further their awareness on
+                inclusivity.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card
+            style={{
+              width: "18rem",
+              cursor: "pointer",
+              borderRadius: "30px 30px 30px 30px",
+            }}
+            className="h-100"
+          >
+            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+            <Card.Body>
+              <Card.Title>Image Description</Card.Title>
+              <Card.Text>
+                image description alert (if images are posted in a chat, ask the
+                sender to describe it)
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </Container>
       </div>
     </div>

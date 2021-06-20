@@ -1,14 +1,22 @@
 .something {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  /* justify-content: space-between; */
   padding: 30px;
-  overflow-x: auto;
+  overflow: auto;
+  height: 400px;
+  width: 100%;
+
+  justify-content: space-between;
 }
 
 .childsome {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  height: 300px;
+  width: 100%;
+  overflow: auto;
+  justify-content: space-between;
 }
 .featureTitle {
   font-family: "Poppins", sans-serif;
