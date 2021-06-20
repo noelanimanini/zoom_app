@@ -160,15 +160,7 @@ function Index() {
                 </Card.Text>
                 <div className="align-self-center mt-auto">
                   <a
-                    href="https://www.linkedin.com/in/linda-wang-250b85180/"
-                    rel="noreferrer"
-                    aria-hidden="true"
-                    target="_blank"
-                  >
-                    <AiFillLinkedin className="icon" />
-                  </a>
-                  <a
-                    href="https://github.com/LindaWang7"
+                    href="https://github.com/lishyl26"
                     target="_blank"
                     aria-hidden="true"
                     rel="noreferrer"
