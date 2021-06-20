@@ -24,8 +24,9 @@
 
 .parentBlurb {
   display: flex;
+  padding-top: 20px;
   flex-wrap: wrap;
-  margin: 7em;
+  margin: 1em;
 }
 
 .subParent {
@@ -39,7 +40,7 @@
 .titleTag {
   color: #2486e6;
   font-weight: 900;
-  text-align: left;
+  font-size: 50px;
   /* height: 100px; */
 }
 
@@ -47,15 +48,15 @@
   text-align: left;
 } */
 .imageParent {
-  position: relative;
-  width: 35em;
-  height: 65vh;
-  overflow-x: hidden;
+  width: 36em;
 }
 
 .paraParent p {
   width: 30em;
   text-align: justify;
+  margin: 0;
+  margin: 0 auto;
+  padding-top: 30px;
 }
 .paraParent p:after {
   /* this adds an extra invisible line, so any other line is justified */
@@ -63,4 +64,10 @@
   display: inline-block;
   width: 100%;
   vertical-align: top;
+  margin: 0;
+  margin: 0 auto;
+}
+
+.para2 p {
+  margin: 0 auto;
 }

@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Pic from "../images/inclusive.jpg";
 import "./behaviors.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function Index() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className="message">
       <div className="titleBox">
-        <h1 className="title">
+        <h1
+          className="title"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           Digital Accessibility & Inclusion are <em> Essential</em>
         </h1>
       </div>
