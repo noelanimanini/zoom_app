@@ -14,19 +14,22 @@ function Index() {
         </h6>
       </div>
 
-      <div className="something" id="features">
+      <div id="features">
         <Container className="childsome">
           <Card
             style={{
               width: "18rem",
               cursor: "pointer",
               borderRadius: "30px 30px 30px 30px",
+              backgroundColor: "#2486e6",
             }}
-            className="h-100"
+            className="mt-5"
           >
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-            <Card.Body>
-              <Card.Title>Chat Notifications</Card.Title>
+            <Card.Body className="featureBody">
+              <Card.Title className="featureTitle2">
+                Chat Notifications
+              </Card.Title>
               <Card.Text>
                 Every participant that joins the Zoom meeting will receive an
                 automated private message that encourages them to be mindful of
@@ -40,12 +43,13 @@ function Index() {
               width: "18rem",
               cursor: "pointer",
               borderRadius: "30px 30px 30px 30px",
+              backgroundColor: "#2486e6",
             }}
-            className="h-100"
+            className="mt-5"
           >
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-            <Card.Body>
-              <Card.Title>Auto Captions</Card.Title>
+            <Card.Body className="featureBody">
+              <Card.Title className="featureTitle2">Auto Captions</Card.Title>
               <Card.Text>Turn on Auto Captions when you're speaking!</Card.Text>
             </Card.Body>
           </Card>
@@ -55,12 +59,13 @@ function Index() {
               width: "18rem",
               cursor: "pointer",
               borderRadius: "30px 30px 30px 30px",
+              backgroundColor: "#2486e6",
             }}
-            className="h-100"
+            className="mt-5"
           >
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-            <Card.Body>
-              <Card.Title>Resources</Card.Title>
+            <Card.Body className="featureBody">
+              <Card.Title className="featureTitle2">Resources</Card.Title>
               <Card.Text>
                 Every reminder Digi-Clusive sends includes a link to resources
                 for the user to check out and further their awareness on
@@ -74,15 +79,18 @@ function Index() {
               width: "18rem",
               cursor: "pointer",
               borderRadius: "30px 30px 30px 30px",
+              backgroundColor: "#2486e6",
             }}
-            className="h-100"
+            className="mt-5"
           >
             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-            <Card.Body>
-              <Card.Title>Image Description</Card.Title>
+            <Card.Body className="featureBody">
+              <Card.Title className="featureTitle2">
+                Image Description
+              </Card.Title>
               <Card.Text>
-                image description alert (if images are posted in a chat, ask the
-                sender to describe it)
+                Image description alert (if images are posted in a chat, the
+                sender will be asked to describe it)
               </Card.Text>
             </Card.Body>
           </Card>
