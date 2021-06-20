@@ -9,7 +9,6 @@ However, video conferencing creates many accessibility barriers, meaning not all
 
 Digi-Clusive Meeting intends to remove those barriers, because, in order to have true community, every voice is necessary. Digital inclusivity and accessibility are essential to a flourishing community. 
 
-
 ## Why the platform is useful
 Digi-Clusive encourages inclusion amongst the general community to hear the voices of invisible minorities/communities. 
 
@@ -17,16 +16,11 @@ Digi-Clusive encourages inclusion amongst the general community to hear the voic
 The web page and introduction can be found at https://digiclusive.herokuapp.com/ for more information on our team, intentions, features, and downloading.
 
 ## Where users can get help with your project
-Get in touch with the developer team (github information below)
+Get in touch with the developer team. Devpost project can be found at https://devpost.com/software/tbd-qr5bgi?ref_content=user-portfolio&ref_feature=in_progress
 
-## Who maintains and contributes to the project
-Developer team: 
-(Back-end developer)
-(Front-end developer)
-(developer and copywriter)
-https://github.com/lishyl26 (Designer)
+----
 
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
