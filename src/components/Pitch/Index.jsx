@@ -28,7 +28,12 @@ function Index() {
         <img src={Group} className="imageStyle" />
       </div>
       <div className="button5">
-        <Button variant="screen">download Digi-clusive</Button>
+        <a
+          href="https://github.com/noelanimanini/zoom_app/tree/python_backend"
+          target="_blank"
+        >
+          <Button variant="screen">download Digi-clusive</Button>
+        </a>
       </div>
     </div>
   );

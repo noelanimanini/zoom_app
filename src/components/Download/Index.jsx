@@ -23,7 +23,12 @@ function Index() {
           <h6>create more inclusive communities with DIGI-CLUSIVE </h6>
         </div>
         <div className="button2">
-          <Button variant="flat">Download</Button>
+          <a
+            href="https://github.com/noelanimanini/zoom_app/tree/python_backend"
+            target="_blank"
+          >
+            <Button variant="flat">Download</Button>
+          </a>
         </div>
       </div>
     </div>
