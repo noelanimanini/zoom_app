@@ -10,6 +10,7 @@
   color: #6261b9;
   padding: 45px;
   font-weight: 900;
+  text-align: center;
 }
 .videoImage {
   width: 100%;
@@ -24,6 +25,7 @@
   text-align: justify;
   font-size: 20px;
   margin-left: 4em;
+  margin-right: 6em;
 }
 
 .aboutParent {
